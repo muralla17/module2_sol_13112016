@@ -21,12 +21,12 @@ p {
   color: black;
   float: right;
   text-align: left;
-  width: 90%;
+  width: 100%;
 }
 
 
 h {
-  font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     float: right;
     border: 1px solid black;
     margin-left:auto; margin-right:0;
@@ -39,6 +39,7 @@ h1  {
       font-family: "Comic Sans MS";
       font-weight: bold;
       font-size: 1.75em;
+      padding-right: 0px;
       }
 
 #h2  { 
@@ -66,6 +67,7 @@ h1  {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  padding-right: 10%;
 }
 
 /********** Desktop version devices only **********/
